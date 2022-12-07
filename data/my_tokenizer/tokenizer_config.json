@@ -1,0 +1,13 @@
+{
+  "cls_token": "[CLS]",
+  "do_lower_case": true,
+  "mask_token": "[MASK]",
+  "name_or_path": "hfl/chinese-roberta-wwm-ext",
+  "pad_token": "[PAD]",
+  "sep_token": "[SEP]",
+  "special_tokens_map_file": "/home/mzh/.cache/huggingface/transformers/d521373fc7ac35f63d56cf303de74a202403dcf1aaa792cd01f653694be59563.dd8bd9bfd3664b530ea4e645105f557769387b3da9f79bdb55ed556bdd80611d",
+  "strip_accents": null,
+  "tokenize_chinese_chars": true,
+  "tokenizer_class": "BertTokenizer",
+  "unk_token": "[UNK]"
+}
