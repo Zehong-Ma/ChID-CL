@@ -73,15 +73,15 @@
 
 * 利用对比学习约束$L_1$，拉近成语向量$c_i^p$和`[Mask]`预测出的词向量$t_i$的距离（拉近正样本对），并同时拉远$t_i$和其它非目标成语$c_j(c_j\neq c_i^p)$之间的距离（拉远负样本对）。
 
-    <img src="./README/image-20221211150050428.png" style="zoom:50%;" />
+    <img src="./README/image-20221211150050428.png" width="30%" height="30%" />
 
 * 利用对比学习约束$L_2$，拉近成语向量$c_i$和$c_i^p$的距离（正样本），并同时拉远$c_i$和其它非目标成语$c_j(c_j\neq c_i^p)$之间的距离（负样本）。    
 
-    <img src="README/image-20221211150234765.png" style="zoom:50%;" />
+    <img src="README/image-20221211150234765.png" width="30%" height="30%" />
 
 * 两个Loss函数相加。
 
-    <img src="README/image-20221211150302016.png" alt="image-20221211150302016" style="zoom: 50%;" />
+    <img src="README/image-20221211150302016.png" width="30%" height="30%" />
 
 ### 2.3 基于额外知识的对比学习模型CoMEK（CoM with Extra Knowledge）
 
@@ -93,15 +93,15 @@
 
 * 利用对比学习约束$L_1$，拉近成语向量$c_i^p$和`[Mask]`预测出的词向量$t_i$的距离（拉近正样本对），并同时拉远$t_i$和其它非目标成语$c_j(c_j\neq c_i^p)$之间的距离（拉远负样本对）。
 
-    <img src="./README/image-20221211150050428.png" style="zoom:50%;" />
+    <img src="./README/image-20221211150050428.png" width="30%" height="30%" />
 
 * 利用对比学习约束$L_2$，拉近根据`[Mask]`预测的向量$t_i$和对应的句子解释之间的$k_i^p$的距离（正样本），并同时拉远$t_i$和其它非目标成语的解释$k_j(k_j\neq k_i^p)$之间的距离（负样本）。
 
-    <img src="./README/image-20221211150924292.png" style="zoom:50%;" />
+    <img src="./README/image-20221211150924292.png" width="30%" height="30%" />
 
 * 两个Loss函数相加。
 
-    <img src="README/image-20221211150950872.png" alt="image-20221211150950872" style="zoom:50%;" />
+    <img src="README/image-20221211150950872.png" width="30%" height="30%" />
 
 
 
