@@ -1,4 +1,6 @@
-# Fill in the Blank with Contrastive Learning
+# 基于对比学习的中文成语完型填空
+
+## 实验目的
 
 本项目采用ChID中文成语完型填空数据集，要求模型能够从一系列成语候选中选择最正确的成语填入语篇的特定位置。
 
@@ -13,7 +15,7 @@
 
 如上所示，在`content`中有两处`#idiom#`标志。以第一个标志处为例，模型要从候选成语`["明明白白", "添油加醋", "一目了然", "残兵败将", "杂乱无章", "心中有数", "打抱不平"]`选择最合适的成语`一目了然`填入此处。
 
-## 数据集下载
+### 数据集下载
 
 本文数据集ChID由 **[ChID: A Large-scale Chinese IDiom Dataset for Cloze Test](https://www.aclweb.org/anthology/P19-1075)** 提出。训练集包含句子50w条，验证集和测试集各有2w条句子。
 
